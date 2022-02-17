@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
+    <title>JS Project 1 - Alex Rodriguez</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="project.js"></script>
+</head>
+<body>
+    <header>
+        <div class="headerWrapper">
+            <div class="headerContainer">
+                <span class="headerSpan">Welcome to the...</span>
+                <h1><a class="mainHeader" href="#main">Hydration Station</a></h1>
+                <p className="headerP">
+                    It's important to take breaks when working for long stretches of time. Keeping yourself hydrated is also very important! Our pal Hydro Bro has something to ask you:
+                </p>
+            </div>
+        </div>
+    </header>
+    
+        <main id="main">
+            <div class="mainWrapper">
+                <div class="broContainer">
+                    <div name="img">
+                        <img src="assets/hydroBro.png" class="hydroBro">
+                    </div> 
+                    <div class="dialogue">
+                        <div class="dialogueBlue">
+                            <p id="hydroBroTalk">Hey Champ, have you had anything to drink in the last hour?</p>
+                            </div>
+                        <div class="dialogueGreen">
+                            <form action="#" method="#" class="userInput"name="userInput" required>
+                                <fieldset>
+                                    <legend>You:</legend>
+                                    <label for="no">Does coffee count?</label>
+                                    <input type="radio" name="userInput" value="no" id="no" required>
+    
+                                    <label for="yes">Heck yeah!</label>
+                                    <input type="radio" name="userInput" value="yes" id="yes">
+                                </fieldset>
+                                <button type="submit">Respond.</button>
+                            </form>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </main>
+    <footer>
+           Art and Project made at Juno College by <a href="https://alxndrdrgz.com/">Alex Rodriguez-Sta. Ana</a>.
+    </footer>
+   
+</body>
+</html>

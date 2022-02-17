@@ -1,0 +1,440 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+audio,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details,
+menu {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+canvas {
+  display: inline-block;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header {
+  background-color: #427aa1;
+  height: 100vh;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Amatic SC", cursive;
+  font-size: 3.6rem;
+  color: white;
+}
+
+/* Header styles begin here */
+
+.headerWrapper {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-height: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.mainHeader {
+  font-family: "Luckiest Guy", cursive;
+  color: #427aa1;
+  -webkit-text-stroke: 3px orange;
+  text-shadow: 5px 5px 3px black;
+  font-size: 20rem;
+  padding-top: 2rem;
+}
+
+.mainHeader:hover {
+  color: #ffffff;
+  -webkit-text-stroke: 3px orange;
+  text-shadow: 5px 5px 3px black;
+}
+
+span.headerSpan {
+  font-family: "Amatic SC", cursive;
+  -webkit-text-stroke: 1px #ffffff;
+  font-size: 8rem;
+  color: #ffffff;
+}
+
+.headerP {
+  width: 700px;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Main section styles begin here */
+main {
+  height: 90vh;
+}
+
+.mainWrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hydroBro {
+  max-height: 600px;
+}
+
+.broContainer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 90%;
+  padding: 5rem 5rem 0rem 5rem;
+  border: 5px solid black;
+  border-radius: 10%;
+  background-color: #c4e5f5;
+}
+
+.dialogue {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.dialogueBlue {
+  background-image: url("assets/blueBubble.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  display: flex;
+  margin-left: 0px;
+  padding-left: 5%;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+#hydroBroTalk {
+  display: inline-block;
+  width: 500px;
+  padding: 8rem 8rem;
+}
+
+.dialogueGreen {
+  background-image: url("assets/greenBubble.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.userInput {
+  padding: 10px 15px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+button {
+  background: #679436;
+  color: white;
+  border: white 3px solid;
+  font-family: "Amatic SC", cursive;
+  margin-left: 71%;
+  margin-top: 5%;
+}
+
+button:hover {
+  color: #ffff3f;
+  border: 3px solid #ffff3f;
+  background: #a5be00;
+  font-family: "Amatic SC", cursive;
+  margin-left: 71%;
+  margin-top: 5%;
+}
+
+button:focus {
+  color: #ffff3f;
+  border: 3px solid #ffff3f;
+  background: #a5be00;
+  font-family: "Amatic SC", cursive;
+  margin-left: 71%;
+  margin-top: 5%;
+}
+
+/* footer */
+
+footer {
+  margin: 0 auto;
+  background-color: #427aa1;
+  font-size: 3rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* media queries */
+
+/* @media (max-width: 965px;) {
+    header {
+        height: 400px;
+    }
+
+    main {
+        margin-left: 5%;
+        height: 600px;
+        display: flex;
+    }
+
+    .hydroBro {
+        height: 400px;
+    }
+
+    #hydroBroTalk {
+        display: inline-block;
+        width: 350px;
+        padding-left: 25px;
+        margin-left: 65px;
+    }
+
+    .dialogueGreen {
+        height: 200px;
+    }
+    
+    fieldset {
+        font-size: 2rem;
+    }
+
+} */
