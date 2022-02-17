@@ -407,6 +407,55 @@ footer {
 
 /* media queries */
 
+@media (max-width: 500px) {
+   .mainHeader {
+     font-size: 6rem;
+   }
+   span.headerSpan {
+     font-size: 4rem;
+      -webkit-text-stroke: 0px #ffffff;
+   }
+
+   .mainWrapper {
+     max-width: 360px;
+   }
+
+   .broContainer{
+     height: 75%;
+     padding: 2.5rem 2.5rem 0 2.5rem;
+   }
+
+   .dialogue {
+     max-width: 50%;
+     justify-content: space-around;
+   }
+
+   .imgContainer {
+     border: 5px solid black;
+     height: 200px;
+   }
+
+   .hydroBro {
+    max-height: 100%;
+   }
+
+   .hydroBroTalk {
+     padding: 0;
+   }
+
+   .dialogueBlue,
+   .dialogueGreen{
+     height: 100px;
+     font-size: 1.5rem;
+   }
+
+
+   footer {
+     font-size: 1.5rem;
+     padding: 0.5rem;
+   }
+}
+
 /* @media (max-width: 965px;) {
     header {
         height: 400px;
